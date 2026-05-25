@@ -148,7 +148,6 @@ export default function Income() {
       setDetail("");
       setAmount("");
       fetchSummary();
-      router.back();
     } else {
       Alert.alert("สำเร็จ", successMessage, [
         {
@@ -157,7 +156,6 @@ export default function Income() {
             setDetail("");
             setAmount("");
             fetchSummary();
-            router.back();
           },
         },
       ]);
