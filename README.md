@@ -1,50 +1,63 @@
-# Welcome to your Expo app 👋
+# 🐷 Money Tracking App (รายรับรายจ่ายของฉัน)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+แอปพลิเคชันบันทึกรายรับรายจ่ายสไตล์น่ารัก ที่ช่วยให้การจัดการเงินของคุณเป็นเรื่องสนุกและง่ายดาย ใช้งานง่าย สบายตา พร้อมฟังก์ชันสรุปยอดเงินคงเหลือและประวัติการทำรายการแบบเรียลไทม์ ✨
 
-## Get started
+---
 
-1. Install dependencies
+## 📸 ภาพรวมแอปพลิเคชัน (Screenshots)
 
+### 🚀 หน้าเริ่มต้นแอปพลิเคชัน
+| Index | Welcome |
+| :---: | :---: |
+| <img width="250" src="https://github.com/user-attachments/assets/ce861cd1-771b-4d2b-8363-6bcd6d7a1324" /> | <img width="250" src="https://github.com/user-attachments/assets/26c0b533-ed78-4bc7-80be-0698abedeb85" /> |
+
+---
+
+### 🏡 หน้าหลักและการจัดการ
+| Home | Income | Expense |
+| :---: | :---: | :---: |
+| <img width="200" src="https://github.com/user-attachments/assets/b54a56d4-3291-476e-9f48-a56780fdb38b" /> | <img width="200" src="https://github.com/user-attachments/assets/7fb3ef98-7239-4079-85da-4df544dbbea6" /> | <img width="200" src="https://github.com/user-attachments/assets/403eb4f7-1ceb-472e-b1ea-bb027bca6095" /> |
+
+---
+
+### 🛡️ ระบบตรวจสอบความถูกต้องของข้อมูล (Validation & Alerts)
+| ไม่กรอกข้อมูล | ไม่กรอกเงิน | เงิน 0 หรือติดลบ | บันทึกสำเร็จ |
+| :---: | :---: | :---: | :---: |
+| <img width="150" src="https://github.com/user-attachments/assets/45781a75-7b93-4fa3-bab6-aa6d396bc195" /> | <img width="150" src="https://github.com/user-attachments/assets/15fe5f90-7ea1-458c-a862-455b2804dc9b" /> | <img width="150" src="https://github.com/user-attachments/assets/0633f6f8-13d5-41df-8f36-a8b1d15b4def" /> | <img width="150" src="https://github.com/user-attachments/assets/d973d1cf-2577-43af-a92e-fd59074bf40c" /> |
+
+---
+
+## 🛠️ เทคโนโลยีที่ใช้ (Tech Stack)
+
+* **Framework:** React Native / Expo
+* **Routing:** Expo Router
+* **Fonts:** Google Fonts (Kanit)
+* **Icons:** Ionicons (@expo/vector-icons)
+* **Backend/Database:** Supabase
+
+---
+
+## ⚙️ การติดตั้งและการตั้งค่า (Setup)
+
+1. Clone โปรเจกต์ลงมาที่เครื่อง:
+   ```bash
+   git clone [URL_ของคุณ]
+   cd [ชื่อโปรเจกต์]
+   
+2. ติดตั้ง Dependencies:
    ```bash
    npm install
-   ```
-
-2. Start the app
-
+   
+3. การตั้งค่า Environment Variables (Supabase):
+   ```bash
+   EXPO_PUBLIC_SUPABASE_URL=ใส่_URL_ที่นี่
+   EXPO_PUBLIC_SUPABASE_ANON_KEY=ใส่_KEY_ที่นี่
+   
+4. รันโปรเจกต์:
    ```bash
    npx expo start
-   ```
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+# 👨‍💻 ผู้จัดทำ (Credits)
+## Credit by Tanabut Watayakone 6852D10012 SAU
